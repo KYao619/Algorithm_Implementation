@@ -8,7 +8,7 @@ sys.path.append(os.path.abspath("../.."))
 
 from copy import copy
 from data_structs.max_heap import MaxHeap
-from example_generator import gen_data
+from utlis.example_generator import gen_data
 from time import time
 
 
