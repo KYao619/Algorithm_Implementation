@@ -4,13 +4,12 @@
 import os
 os.chdir(os.path.split(os.path.realpath(__file__))[0])
 import sys
-sys.path.append(os.path.abspath(".."))
+sys.path.append(os.path.abspath("../.."))
 
 from copy import copy
-from max_heap import MaxHeap
+from data_structs.max_heap import MaxHeap
 from example_generator import gen_data
 from time import time
-from random import randint
 
 
 def brutal_search(nums, k):
