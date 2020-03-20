@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from numpy import ndarray
-from data_structs.utils import sigmoid
 from learning_models.linear_model.regression_base import RegressionBase
 
 
