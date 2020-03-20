@@ -7,7 +7,7 @@ from learning_models.linear_model.regression_base import RegressionBase
 
 class LogisticRegression(RegressionBase):
     """
-    Attritubes:
+    Attributes:
         bias: b
         weights: W
     """
