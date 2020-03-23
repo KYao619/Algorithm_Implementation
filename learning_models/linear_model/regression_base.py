@@ -49,7 +49,7 @@ class RegressionBase(object):
         if data.ndim == 1:
             grad_weights = grad_bias * data
         elif data.ndim == 2:
-            grad_weights = grad_bias[:, None] * data
+            grad_weights = grad_bias[:, None] * data  # grad_bias[:, None] -- expand the dimension to match data
             grad_weights = grad_weights.mean(axis=0)
             grad_bias = grad_bias.mean()
         else:
